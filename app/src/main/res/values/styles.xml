@@ -1,0 +1,86 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--<item name="colorControlHighlight">@color/colorPrimaryDark</item>-->
+
+        <!-- Custom ActionBar -->
+        <item name="actionBarTheme">@style/AppBaseTheme.Toolbar</item>
+    </style>
+    <!--Action bar-->
+    <style name="AppBaseTheme.Toolbar" parent="Widget.AppCompat.ActionBar.Solid">
+        <item name="android:textColorPrimary">@color/colorWhite</item>
+        <item name="colorControlNormal">@color/colorWhite</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!--<style name="ToolbarThemeWhite" parent="@style/ThemeOverlay.AppCompat.ActionBar">-->
+    <!--<item name="colorControlNormal">@color/colorWhite</item>-->
+    <!--<item name="android:textColorPrimary">@color/colorWhite</item>-->
+    <!--</style>-->
+    <style name="chatting_style_name">
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="tv_time">
+        <item name="android:textSize">@dimen/text_time</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="tv_msg">
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="avatar_round">
+        <item name="android:background">@color/colorGray</item>
+        <item name="android:layout_width">@dimen/avatar_iv</item>
+        <item name="android:layout_height">@dimen/avatar_iv</item>
+    </style>
+
+    <style name="avatar_iv">
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:src">@drawable/avatar_l</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="image_chatting">
+        <item name="android:maxHeight">300dp</item>
+        <item name="android:src">@drawable/picture_temp</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="me_bg">
+        <item name="android:background">@drawable/message_bg_content_2</item>
+        <item name="android:layout_marginLeft">@dimen/layout_margin_left</item>
+        <item name="android:layout_marginRight">@dimen/layout_margin_left</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="user_bg">
+        <item name="android:background">@drawable/message_bg_content</item>
+        <item name="android:layout_marginLeft">@dimen/layout_margin_left</item>
+        <item name="android:layout_marginRight">@dimen/layout_margin_left</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+</resources>
